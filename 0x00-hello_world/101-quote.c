@@ -1,4 +1,13 @@
-VimCrypt~03!¡ãE#0¥¾ÃŞÀHg¨ÓÜÍ2–U¤ŞxóqeîˆòëÅi]œâ÷-·n‰M4 6Í:RIı‰‚À^Ú!GV¾¾‰¦&üØt]ê£H•\6(LĞ¥/l“ô›‰ÉuN®ˆZó×ÏëãQ4«=aÓ.üÉÄÀŸ-|ğ5¬®)tW¸Ñ»eÉ)oY¸¯xÕ}v?¹KlÎõÕB¦ÊNŞ“‹úuE«®dA0æµ#Xzm£
-×‚^dÖúØın¢±µ{ Î,½¢Pÿ&×Ï—ü­¦ÕH=ÅÃwJƒöü4›Í7
-(æçE¼J?[ëm¤5Ìûa#ÛÿciŸÇ%
-OØ_êècé)lGõÉ³…n1˜<Pœc›×,áLCã>‹c\AZ…²ç'y¦ Fq?B†R$!ßU•<JY)úAd×Yâ"º
+#include<stdio.h>
+#include<unistd.h>
+/**
+ * main - prints exactly "and that piece of art is useful"
+ * - Dora korpar, 2015-10-19,
+ * followed by a new line, to the standard error.
+ * Return: Always 0 (success)
+ */
+int main(void)
+{
+write(2, "and that piece of art is useful\" - Dora korpar, 2015-10-19\n", 59);
+return (1);
+}
