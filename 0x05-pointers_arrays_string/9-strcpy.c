@@ -5,7 +5,8 @@
  *@src: A pointer to a char that will be changed
  *Return: dest
  */
-char *_strcpy(char *dest, char *src)
+
+char *_strcpy(char *dest, char *src
 {
 int i;
 i = 0;

@@ -5,6 +5,7 @@
  *
  *Return: void
  */
+
 void rev_string(char *s)
 {
 char *start_c, *end_c, c;
@@ -24,6 +25,7 @@ for (i = 0; i < count - 1; i++)
 {
 end_c++;
 }
+
 for (i = 0; i < count / 2; i++)
 {
 c = *end_c;

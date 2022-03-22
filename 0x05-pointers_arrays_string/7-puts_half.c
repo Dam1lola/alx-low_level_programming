@@ -5,14 +5,17 @@
  *
  *Return: void which means our answer is correct
  */
-void puts_half(char *str)
+
+	void puts_half(char *str)
 {
 int i, last;
 i = 0;
+
 while (str[i] != '\0')
 {
 i++;
 }
+
 last = (i + 1) / 2;
 }
 _putchar (str[i]);
