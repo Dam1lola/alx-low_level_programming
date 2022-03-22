@@ -1,1 +1,1 @@
-readme pointer
+readme pointers
