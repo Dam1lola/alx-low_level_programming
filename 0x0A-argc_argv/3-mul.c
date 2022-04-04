@@ -1,5 +1,5 @@
+#include <stdlib.h>
 #include <stdio.h>
-#include "main.h"
 /**
  * main - Multiplies two numbers
  * @argc: size of *argv
@@ -16,4 +16,3 @@ return (1);
 printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 return (0);
 }
-
